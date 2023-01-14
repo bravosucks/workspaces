@@ -1,0 +1,107 @@
+[2023-01-14T21:37:04.519Z] @microsoft/vscode-dev-containers-cli 0.78.0.
+[2023-01-14T21:37:04.519Z] Start: Resolving Remote
+[2023-01-14T21:37:04.532Z] Start: Run: docker ps -q -a --filter label=Type=codespaces
+[2023-01-14T21:37:04.555Z] Stop (23 ms): Run: docker ps -q -a --filter label=Type=codespaces
+[2023-01-14T21:37:04.556Z] Start: Run: docker inspect --type container a918ef7a6419
+[2023-01-14T21:37:04.579Z] Stop (23 ms): Run: docker inspect --type container a918ef7a6419
+[2023-01-14T21:37:04.581Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --expect-existing-container --mount type=bind,source=/tmp/vsch-root,target=/vscode --skip-post-create --update-remote-user-uid-default never --mount-workspace-git-root false
+[2023-01-14T21:37:04.789Z] @devcontainers/cli 0.26.0. Node.js v14.21.1. linux 5.4.0-1098-azure x64.
+[2023-01-14T21:37:04.789Z] Start: Run: docker buildx version
+[2023-01-14T21:37:04.866Z] Stop (77 ms): Run: docker buildx version
+[2023-01-14T21:37:04.867Z] github.com/docker/buildx 0.9.1+azure-2 ed00243a0ce2a0aee75311b06e32d33b44729689
+[2023-01-14T21:37:04.867Z] 
+[2023-01-14T21:37:04.867Z] Start: Resolving Remote
+[2023-01-14T21:37:04.872Z] Start: Run: docker ps -q -a --filter label=Type=codespaces
+[2023-01-14T21:37:04.897Z] Stop (25 ms): Run: docker ps -q -a --filter label=Type=codespaces
+[2023-01-14T21:37:04.898Z] Start: Run: docker inspect --type container a918ef7a6419
+[2023-01-14T21:37:04.923Z] Stop (25 ms): Run: docker inspect --type container a918ef7a6419
+[2023-01-14T21:37:04.926Z] Start: Inspecting container
+[2023-01-14T21:37:04.927Z] Start: Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:04.978Z] Stop (51 ms): Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:04.978Z] Stop (52 ms): Inspecting container
+[2023-01-14T21:37:04.979Z] Start: Run in container: /bin/sh
+[2023-01-14T21:37:04.984Z] Start: Run in container: uname -m
+[2023-01-14T21:37:05.050Z] x86_64
+[2023-01-14T21:37:05.050Z] 
+[2023-01-14T21:37:05.050Z] Stop (66 ms): Run in container: uname -m
+[2023-01-14T21:37:05.051Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2023-01-14T21:37:05.053Z] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[2023-01-14T21:37:05.053Z] 
+[2023-01-14T21:37:05.053Z] Stop (2 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2023-01-14T21:37:05.053Z] Start: Run in container: cat /etc/passwd
+[2023-01-14T21:37:05.055Z] Stop (2 ms): Run in container: cat /etc/passwd
+[2023-01-14T21:37:05.056Z] Start: Run in container: test -f '/var/vscode-remote/.patchEtcEnvironmentMarker'
+[2023-01-14T21:37:05.057Z] 
+[2023-01-14T21:37:05.057Z] 
+[2023-01-14T21:37:05.057Z] Stop (1 ms): Run in container: test -f '/var/vscode-remote/.patchEtcEnvironmentMarker'
+[2023-01-14T21:37:05.057Z] Start: Run in container: test -f '/var/vscode-remote/.patchEtcProfileMarker'
+[2023-01-14T21:37:05.058Z] 
+[2023-01-14T21:37:05.058Z] 
+[2023-01-14T21:37:05.058Z] Stop (1 ms): Run in container: test -f '/var/vscode-remote/.patchEtcProfileMarker'
+[2023-01-14T21:37:05.059Z] Stop (192 ms): Resolving Remote
+[2023-01-14T21:37:05.063Z] Stop (482 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --expect-existing-container --mount type=bind,source=/tmp/vsch-root,target=/vscode --skip-post-create --update-remote-user-uid-default never --mount-workspace-git-root false
+[2023-01-14T21:37:05.064Z] Start: Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.094Z] Stop (30 ms): Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.095Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --container-id a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45 --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --mount-workspace-git-root false
+[2023-01-14T21:37:05.301Z] @devcontainers/cli 0.26.0. Node.js v14.21.1. linux 5.4.0-1098-azure x64.
+[2023-01-14T21:37:05.300Z] Start: Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.329Z] Stop (29 ms): Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.333Z] Stop (238 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --container-id a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45 --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --mount-workspace-git-root false
+[2023-01-14T21:37:05.334Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --container-id a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45 --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --include-merged-configuration --mount-workspace-git-root false
+[2023-01-14T21:37:05.536Z] @devcontainers/cli 0.26.0. Node.js v14.21.1. linux 5.4.0-1098-azure x64.
+[2023-01-14T21:37:05.536Z] Start: Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.565Z] Stop (29 ms): Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.573Z] Stop (239 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-blank --id-label Type=codespaces --container-id a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45 --log-level info --log-format json --override-config /root/.codespaces/shared/merged_devcontainer.json --include-merged-configuration --mount-workspace-git-root false
+[2023-01-14T21:37:05.574Z] Start: Inspecting container
+[2023-01-14T21:37:05.574Z] Start: Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.599Z] Stop (25 ms): Run: docker inspect --type container a918ef7a641976793edb0829b0c6a19542173ae7e45276da3f6bc63751536a45
+[2023-01-14T21:37:05.599Z] Stop (25 ms): Inspecting container
+[2023-01-14T21:37:05.600Z] Start: Run in container: /bin/sh
+[2023-01-14T21:37:05.606Z] Start: Run in container: uname -m
+[2023-01-14T21:37:05.676Z] x86_64
+[2023-01-14T21:37:05.676Z] 
+[2023-01-14T21:37:05.676Z] Stop (70 ms): Run in container: uname -m
+[2023-01-14T21:37:05.677Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2023-01-14T21:37:05.679Z] NAME="Ubuntu"
+VERSION="20.04.5 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.5 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+[2023-01-14T21:37:05.679Z] 
+[2023-01-14T21:37:05.679Z] Stop (2 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2023-01-14T21:37:05.679Z] Start: Run in container: cat /etc/passwd
+[2023-01-14T21:37:05.681Z] Stop (2 ms): Run in container: cat /etc/passwd
+[2023-01-14T21:37:05.683Z] Start: Run in container: test -d /home/codespace/.vscode-remote
+[2023-01-14T21:37:05.684Z] 
+[2023-01-14T21:37:05.684Z] 
+[2023-01-14T21:37:05.684Z] Stop (1 ms): Run in container: test -d /home/codespace/.vscode-remote
+[2023-01-14T21:37:05.685Z] Start: Run in container: test ! -f '/home/codespace/.vscode-remote/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/codespace/.vscode-remote/data/Machine' && { > '/home/codespace/.vscode-remote/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2023-01-14T21:37:05.687Z] 
+[2023-01-14T21:37:05.687Z] 
+[2023-01-14T21:37:05.687Z] Stop (2 ms): Run in container: test ! -f '/home/codespace/.vscode-remote/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/codespace/.vscode-remote/data/Machine' && { > '/home/codespace/.vscode-remote/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2023-01-14T21:37:05.687Z] Start: Run in container: mkdir -p '/home/codespace/.vscode-remote/data/Machine' && cat >'/home/codespace/.vscode-remote/data/Machine/settings.json' <<'settingsJSON'
+[2023-01-14T21:37:05.691Z] 
+[2023-01-14T21:37:05.691Z] 
+[2023-01-14T21:37:05.691Z] Stop (4 ms): Run in container: mkdir -p '/home/codespace/.vscode-remote/data/Machine' && cat >'/home/codespace/.vscode-remote/data/Machine/settings.json' <<'settingsJSON'
+[2023-01-14T21:37:05.692Z] userEnvProbe: loginInteractiveShell (default)
+[2023-01-14T21:37:05.692Z] Stop (1173 ms): Resolving Remote
+[2023-01-14T21:37:05.693Z] userEnvProbe shell: /bin/bash
+[2023-01-14T21:37:05.694Z] Start: Run in container: /bin/bash -lic echo -n be124ac4d58de99aa936fabe33268aa3; cat /proc/self/environ; echo -n be124ac4d58de99aa936fabe33268aa3
